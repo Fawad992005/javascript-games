@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.btn {
+    width: 130px;  /* Set a fixed width */
+    height: 90px;  /* Set a fixed height */
+    font-size: 45px;  /* Set font size */
+    overflow: hidden;  /* Handle overflow text */
+    text-overflow: ellipsis;  /* Show ellipsis for overflow text */
+    white-space: nowrap;  /* Prevent text wrapping */
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+#reset{
+    padding: 15px 50px 15px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hide{
+    display: none;
+}
+#msg{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#newgame{
+    padding: 15px 50px 15px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    margin-bottom: 20px;
+}
